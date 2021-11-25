@@ -1,0 +1,111 @@
+/* start of global properties */
+.row-cols-1 > * {
+  -ms-flex: 0 0 85%;
+  flex: 0 0 85%;
+}
+.cover {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+.fixed {
+  background-attachment: fixed !important;
+}
+.transition-four {
+  -webkit-transition: all 0.4s ease-in-out !important;
+  -moz-transition: all 0.4s ease-in-out !important;
+  -o-transition: all 0.4s ease-in-out !important;
+  transition: all 0.4s ease-in-out !important;
+}
+.transition-five {
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -moz-transition: all 0.5s ease-in-out !important;
+  -o-transition: all 0.5s ease-in-out !important;
+  transition: all 0.5s ease-in-out !important;
+}
+.pad-top-bottom {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+.darken {
+  background: rgba(255, 193, 7, 0.31);
+  min-height: inherit;
+  z-index: 999;
+}
+.rescale:hover {
+  -webkit-transform: scale(0.97);
+  -moz-transform: scale(0.97);
+  transform: scale(0.97);
+}
+.leading {
+  width: 50%;
+  margin: 50px auto 0;
+}
+.heading {
+  font-family: "Museo Slab 500";
+}
+hr {
+  border: none;
+  height: 0.109em;
+  color: #333;
+  background-color: #aaa;
+  margin-bottom: 50px;
+  width: 50%;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* end of global properties */
+
+/* start of header section */
+header {
+  background: url(../imgs/header.jpg) no-repeat;
+}
+.navbar {
+  margin-bottom: 10rem;
+}
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+  color: orange;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 1.2rem;
+  color: white;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item:hover .nav-link {
+  color: orange;
+}
+/* end of header section */
+.whereto form input[type='text']:focus {
+  border: 1px solid orange;
+  box-shadow: .04em .04em 8px 0 orange;
+}
+.card:hover {
+  box-shadow: .04em .04em 8px 0 orange;
+}
+.card-img-top {
+  position: relative;
+}
+.card-img-overlay {
+  right: auto;
+  bottom: auto;
+}
+/* start of get in touch section */
+.mailreg {
+  background: url(../imgs/180.jpg) no-repeat;
+}
+.mailreg form input[type='text']:focus {
+  border: 1px solid orange;
+  box-shadow: .04em .04em 8px 0 orange;
+}
+/* end of get in touch section */
+/* start of the footer */
+footer ul li:hover a {
+  color: orange !important
+}
+/* end of the footer */
